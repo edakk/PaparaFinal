@@ -12,8 +12,7 @@ namespace Papara.Services.Abstracts
 
         public IEnumerable<Invoice> Get(Invoice Invoice);
         public IEnumerable<Invoice> GetAll();
-       // Task<IReadOnlyList<Invoice>> GetAll();
-      //  Task<Invoice> GetInvoiceById(int id);
+     
         void Add(Invoice Invoice);
         void UpdateInvoice(Invoice Invoice);
         void DeleteInvoice(Invoice Invoice);

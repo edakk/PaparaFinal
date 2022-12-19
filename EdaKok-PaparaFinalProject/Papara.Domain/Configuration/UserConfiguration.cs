@@ -14,7 +14,7 @@ namespace EdaKok_PaparaFinalProject.Papara.Data.Configuration
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.Property(x => x.Email).IsRequired();
-            //  builder.Property(x => x.Id).UseIdentityColumn();
+           
             builder.HasKey(x => x.UserId);
             builder.Property(x => x.FirstName).IsRequired();
             builder.ToTable("Users");

@@ -12,8 +12,7 @@ namespace Papara.Services.Abstracts
 
         public IEnumerable<Message> Get(Message Message);
         public IEnumerable<Message> GetAll();
-       // Task<IReadOnlyList<Message>> GetAll();
-      //  Task<Message> GetMessageById(int id);
+      
         void Add(Message Message);
         void UpdateMessage(Message Message);
         void DeleteMessage(Message Message);

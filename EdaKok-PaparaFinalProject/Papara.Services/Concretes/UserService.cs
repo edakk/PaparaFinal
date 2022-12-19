@@ -37,16 +37,7 @@ namespace Papara.Services.Concretes
             return _userRepository.GetAll().ToList();
         }
 
-        /*   public async Task<IReadOnlyList<User>> GetAll()
-           {
-               return await _userRepository.GetAll();
-           }
-
-           public async Task<User> GetUserById(int id)
-           {
-               return await _userRepository.GetById(id);
-           }
-        */
+       
 
         public void UpdateUser(User user)
         {

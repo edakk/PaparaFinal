@@ -37,16 +37,7 @@ namespace Papara.Services.Concretes
             return _InvoiceRepository.GetAll().ToList();
         }
 
-        /*   public async Task<IReadOnlyList<Invoice>> GetAll()
-           {
-               return await _InvoiceRepository.GetAll();
-           }
-
-           public async Task<Invoice> GetInvoiceById(int id)
-           {
-               return await _InvoiceRepository.GetById(id);
-           }
-        */
+      
 
         public void UpdateInvoice(Invoice Invoice)
         {

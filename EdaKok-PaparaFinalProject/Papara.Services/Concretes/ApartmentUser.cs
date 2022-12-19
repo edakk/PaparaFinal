@@ -37,16 +37,7 @@ namespace Papara.Services.Concretes
             return _ApartmentRepository.GetAll().ToList();
         }
 
-        /*   public async Task<IReadOnlyList<Apartment>> GetAll()
-           {
-               return await _ApartmentRepository.GetAll();
-           }
-
-           public async Task<Apartment> GetApartmentById(int id)
-           {
-               return await _ApartmentRepository.GetById(id);
-           }
-        */
+        
 
         public void UpdateApartment(Apartment Apartment)
         {

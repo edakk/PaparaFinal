@@ -36,20 +36,13 @@ namespace Papara.Data.Concretes
                .AsQueryable();
         }
 
-        /*  public IQueryable<T> GetAll()
-           {
-               return _context.Set<T>().AsQueryable();
-           }
-        */
+       
         public IQueryable<T> GetAll()
         {
             return _context.Set<T>().AsQueryable();
         }
 
-     /*   public T GetById(int id)
-        {
-            return _context.Set<T>().Find(id);
-        }*/
+    
 
         public void Remove(T entity)
         {

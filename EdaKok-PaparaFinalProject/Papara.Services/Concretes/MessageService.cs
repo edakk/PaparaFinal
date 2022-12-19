@@ -37,16 +37,7 @@ namespace Papara.Services.Concretes
             return _MessageRepository.GetAll().ToList();
         }
 
-        /*   public async Task<IReadOnlyList<Message>> GetAll()
-           {
-               return await _MessageRepository.GetAll();
-           }
-
-           public async Task<Message> GetMessageById(int id)
-           {
-               return await _MessageRepository.GetById(id);
-           }
-        */
+       
 
         public void UpdateMessage(Message Message)
         {
